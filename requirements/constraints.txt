@@ -4,8 +4,8 @@ django<1.12
 # FIXME: these need Django 2
 django-guardian<2
 
-# FIXME: 1.x is an ancient version that we should upgrade off of
-elasticsearch<2
+# We're standardized on 5 for the moment across Open edX
+elasticsearch<6
 
 # FIXME: 1.8.5 breaks the way we use serialization methods
 # FIXME: 1.8.3 breaks something about OneToOne field validators
